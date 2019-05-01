@@ -1,0 +1,10 @@
+{
+	"waitTime": 500,
+	"gpioPin": 27,
+	"servoStates": {
+		"OFF": 1900,
+		"ON": 1000,
+		"IDLE": 1500,
+		"STOP": 0
+	}
+}

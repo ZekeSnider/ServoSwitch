@@ -1,0 +1,13 @@
+{
+    "accessory": "Http",
+    "name": "Kitchen Fan",
+    "switchHandling": "realtime",
+    "http_method": "POST",
+    "on_url":      "http://pi.local:4000/state/ON",
+    "off_url":     "http://pi.local:4000/state/OFF",
+    "status_url":  "http://pi.local:4000/state/",
+    "status_on": "ON",
+    "status_off": "OFF",
+    "service": "Switch",
+    "brightnessHandling": "no"
+}

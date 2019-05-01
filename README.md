@@ -14,4 +14,4 @@ Returns an integer the state of the blinds, either `0` or `1`.
 The post :state in the url should be either `OFF` or `ON` the desired state that the switch should move to. Note: if you request the state that the switch is currently set to, it will do nothing.
 
 ## HomeKit
-I use [homebridge-minimal-http-blinds](https://github.com/Nicnl/homebridge-minimal-http-blinds) with this server to enable connectivity with HomeKit. See [accessoryConfig.json](/accessoryConfig.json) for the an example configuration. (You must replace localhost with the host of the blinds server)
+I use [homebridge-http](https://github.com/rudders/homebridge-http) with this server to enable connectivity with HomeKit. See [accessoryConfig.json](/accessoryConfig.json) for the an example configuration. (You must replace localhost with the host of the blinds server)
